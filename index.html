@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cartita Iva</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div id="carousel-section" class="default-carousel">
+        <h1>Inicio de clases</h1>
+        <div><p style="margin-bottom: 2rem">Se vienen cositas:</p></div>
+        <div class="carousel default-carousel" aria-label="Gallery">
+          <ol class="carousel__viewport">
+            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (1).jpeg" />
+              <div class="carousel__snapper">
+                <a href="#carousel__slide4" class="carousel__prev"
+                  >Go to last slide</a
+                >
+                <a href="#carousel__slide2" class="carousel__next"
+                  >Go to next slide</a
+                >
+              </div>
+            </li>
+            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (2).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide1" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide3" class="carousel__next"
+                >Go to next slide</a
+              >
+            </li>
+            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (3).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide2" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide4" class="carousel__next"
+                >Go to next slide</a
+              >
+            </li>
+            <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (4).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide3" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide5" class="carousel__next"
+                >Go to first slide</a
+              >
+            </li>
+            <li id="carousel__slide5" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (5).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide4" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide6" class="carousel__next"
+                >Go to first slide</a
+              >
+            </li>
+            <li id="carousel__slide6" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (6).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide5" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide7" class="carousel__next"
+                >Go to first slide</a
+              >
+            </li>
+            <li id="carousel__slide7" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (7).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide6" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide8" class="carousel__next"
+                >Go to first slide</a
+              >
+            </li>
+            <li id="carousel__slide8" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (8).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide7" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide9" class="carousel__next"
+                >Go to first slide</a
+              >
+            </li>
+            <li id="carousel__slide9" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (14).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide8" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide10" class="carousel__next"
+                >Go to first slide</a
+              >
+            </li>
+            <li id="carousel__slide10" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (11).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide9" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide11" class="carousel__next"
+                >Go to first slide</a
+              >
+            </li>
+            <li id="carousel__slide11" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (12).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide10" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide12" class="carousel__next"
+                >Go to first slide</a
+              >
+            </li>
+            <li id="carousel__slide12" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (13).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide11" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide13" class="carousel__next"
+                >Go to first slide</a
+              >
+            </li>
+            <li id="carousel__slide14" tabindex="0" class="carousel__slide">
+              <img src="assets/meme  (10).jpeg" />
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide13" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide1" class="carousel__next"
+                >Go to first slide</a
+              >
+            </li>
+          </ol>
+          </div>
+        <div
+          style="
+            margin-bottom: 3rem;
+            margin-top: 3rem;
+            display: flex;
+            justify-content: center;
+          "
+        >
+          <button onclick="toggleDivs()">Sorpresita...</button>
+        </div>
+      </div>
+      <div id="letter-section" class="default-letter">
+        <h1>Feliz inicio de clases</h1>
+        <div style="display: flex; justify-content: center">
+          <img
+            src="assets/Cinamon study.jpg"
+            alt="Study jeje"
+            width="200"
+            height="150"
+          />
+        </div>
+        <div class="envoltura-sobre">
+          <div class="sobre">
+            <div class="carta">
+              <div class="contenido">
+                <strong>Ivannitaaa</strong>
+                <p>
+                  Te deseo lo mejor para esta nueva etapa, con la mejor actitud.
+                  Sabes que cuentas conmigooooo!
+                </p>
+                <img
+                  src="assets/Cutie.jpg"
+                  alt="Cutie letter"
+                  width="200"
+                  height="200"
+                />
+                <p>Lo vas a <b>LOGRAR!</b> Confía en ti</p>
+              </div>
+            </div>
+          </div>
+          <div class="corazon"></div>
+          <div class="solapa-derecha"></div>
+          <div class="solapa-izquierda"></div>
+        </div>
+        <div
+          style="
+            margin-bottom: 3rem;
+            margin-top: 3rem;
+            display: flex;
+            justify-content: center;
+          "
+        >
+          <button onclick="toggleDivs()">Back jiji</button>
+        </div>
+      </div>
+    </div>
+    <script src="script_v2.js"></script>
+    <script>
+      function toggleDivs() {
+        let div1 = document.getElementById("carousel-section");
+        let div2 = document.getElementById("letter-section");
+
+        if (div1.style.display === "none") {
+          div1.style.display = "block";
+          div2.style.display = "none";
+        } else {
+          div1.style.display = "none";
+          div2.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
